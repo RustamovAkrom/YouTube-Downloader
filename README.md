@@ -22,8 +22,8 @@
 
 ### 1. Клонировать проект
 ```bash
-git clone https://github.com/username/yt-downloader.git
-cd yt-downloader
+git clone https://github.com/RustamovAkrom/YouTube-Downloader.git
+cd YouTube-Downloader
 ````
 
 ### 2. Создать виртуальное окружение (опционально)
