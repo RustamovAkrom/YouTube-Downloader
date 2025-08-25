@@ -85,25 +85,25 @@ ffmpeg -version
 ### Видео
 
 ```bash
-python ytdown.py --url "https://www.youtube.com/watch?v=XXXX" --type video --quality 1080 --container mp4
+python main.py --url "https://www.youtube.com/watch?v=XXXX" --type video --quality 1080 --container mp4
 ```
 
 ### Аудио
 
 ```bash
-python ytdown.py --url "https://www.youtube.com/watch?v=XXXX" --type audio --audio-format mp3
+python main.py --url "https://www.youtube.com/watch?v=XXXX" --type audio --audio-format mp3
 ```
 
 ### Плейлист
 
 ```bash
-python ytdown.py --url "https://www.youtube.com/playlist?list=XXXX" --type playlist --quality 720
+python main.py --url "https://www.youtube.com/playlist?list=XXXX" --type playlist --quality 720
 ```
 
 ### Субтитры
 
 ```bash
-python ytdown.py --url "https://www.youtube.com/watch?v=XXXX" --type subs --subs-langs "en,ru,auto"
+python main.py --url "https://www.youtube.com/watch?v=XXXX" --type subs --subs-langs "en,ru,auto"
 ```
 
 ---
